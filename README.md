@@ -1,7 +1,7 @@
 https://saveurmemories.netlify.app
 
-<!-- heroku  -->
+#heroku 
 https://momo-creater.herokuapp.com
 
-<!-- backend code -->
+#backend code
 https://github.com/kasech-isaac/-memories-BE
