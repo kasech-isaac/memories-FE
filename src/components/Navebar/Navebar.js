@@ -3,7 +3,7 @@ import {AppBar,Typography,Avatar,Button,Toolbar} from '@material-ui/core';
 import useStyles from './styles'
 import decode from 'jwt-decode'
 import {Link,useHistory, useLocation} from 'react-router-dom'
-import memories from '../../images/memories.jpg'
+// import memories from '../../images/memories.jpg'
 import { useDispatch } from 'react-redux';
 
 
@@ -24,7 +24,7 @@ const Navebar = () => {
   };
     
     useEffect(() => {
-         const token = user?.token;
+        const token = user?.token;
          if(token){
         const decodedToken=decode(token)
         if(decodedToken.exp * 1000<new Date().getTime()) logout()

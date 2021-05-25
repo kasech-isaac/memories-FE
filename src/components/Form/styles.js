@@ -11,9 +11,11 @@ export default makeStyles((theme) => ({
   },
    papers: {
     padding: theme.spacing(4),
-    borderRadius:'100%',
-    background:'#008080',
-    border:'4px solid white'
+    borderRadius:'5%',
+    background:''
+    
+
+
   },
   form: {
     display: 'flex',

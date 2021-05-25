@@ -37,7 +37,7 @@ if(!user?.result?.name){
   return(
     <Paper className={classes.papers}>
     <Typography variant="h6" align="center">
-    Please Sign In to create your own memories and Like other's 
+    Please Sign In to create your own memories  
     </Typography>
     </Paper>
   )

@@ -10,10 +10,12 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 50px',
-    backgroundColor:'#66b2b2'
+    borderBottom:'4px solid white',
+    backgroundColor:'black'
   },
   heading: {
-    color: 'darkcyan',
+    color: 'white',
+    fontWeight:'600',
     textDecoration: 'none',
   },
   image: {
@@ -28,6 +30,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'space-between',
     width: '400px',
+    color:'white'
     
   },
   userName: {

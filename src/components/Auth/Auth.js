@@ -43,8 +43,8 @@ setShowPassword(false)
 }
 const googleSuccess= async (res)=>{
 console.log(res)
-const result=res?. profileObj //not gone throw it will just say un defined
-const token=res?. tokenId
+const result=res?.profileObj //not gone throw it will just say un defined
+const token=res?.tokenId
  try {
       dispatch({ type: "AUTH", data: { result, token } });
 
